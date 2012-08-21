@@ -17,13 +17,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "terrys-spec-helpers"
   gem.homepage = "http://github.com/itsterry/terrys-spec-helpers"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A set of spec helpers generated during client projects and crystallized into one gem"
+  gem.description = "A set of spec helpers generated during client projects and crystallized into one gem"
   gem.email = "itsterry@gmail.com"
   gem.authors = ["Terry S"]
   # dependencies defined in Gemfile
 end
-Jeweler::RubygemsDotOrgTasks.new
+Jeweler::GemcutterTasks.new
 
 require 'rspec/core'
 require 'rspec/core/rake_task'
